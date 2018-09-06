@@ -494,6 +494,7 @@ void MainWindow::BloodVeseelSegSlot()
 	if (!RunWithParam(b)) return;
 	if (b->getOutputImage().size())
 	{
+		ImgList.push_back(b->getOutputImage().at(0));
 		int cnt = b->transObj.outputImage.size();
 		display(
 			b->getOutputImage().at(cnt - 1), //显示最后一张存入transObj.outputImage的图片
@@ -520,12 +521,13 @@ void MainWindow::OpticDiskSegSlot()
 		int cnt = b->transObj.outputImage.size();
 		display(
 			b->getOutputImage().at(cnt - 1), 
-			QStringLiteral("视盘分割")
+			QStringLiteral("视盘模板图像")  
 			);
 		display(
 			b->getOutputImage().at(cnt - 2),
-			QStringLiteral("视盘模板图像")
+			QStringLiteral("视盘分割")
 			);
+		ImgList.push_back(b->getOutputImage().at(cnt - 1));
 		/*display(
 			b->getOutputImage().at(cnt - 3),
 			QStringLiteral("视盘框定")
@@ -534,7 +536,9 @@ void MainWindow::OpticDiskSegSlot()
 	}
 	intParams_MainFrm.push_back(b->IntParam.back());
 	ellipsemergeOD_MainFrm.push_back(b->ellipseParam.back());
-	ImgList.clear();
+	
+
+
 	delete b;
 }
 

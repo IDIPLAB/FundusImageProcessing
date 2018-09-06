@@ -1,8 +1,8 @@
-﻿生成启动时间为 2018/9/3 10:46:49。
+﻿生成启动时间为 2018/9/6 9:50:14。
      1>项目“D:\项目\眼底分级\糖网\代码\软件搭建\FundusImageProcessing\FundusImageProcessing\FundusImageProcessing.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtCore /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtGui /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtWidgets /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtTest /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtConcurrent /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D WIN32 /D WIN64 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
-         main.cpp
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtCore /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtGui /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtWidgets /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtTest /ID:\Qt\Qt5.6.2\5.6\msvc2013_64\include\QtConcurrent /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D WIN32 /D WIN64 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MainFrm.cpp
+         MainFrm.cpp
        Link:
          D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\项目\眼底分级\糖网\代码\软件搭建\FundusImageProcessing\x64\Debug\\FundusImageProcessing.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.6.2\5.6\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Sqld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib vfw32.lib comctl32.lib opencv_calib3d340d.lib opencv_core340d.lib opencv_dnn340d.lib opencv_features2d340d.lib opencv_flann340d.lib opencv_highgui340d.lib opencv_imgcodecs340d.lib opencv_imgproc340d.lib opencv_ml340d.lib opencv_objdetect340d.lib opencv_photo340d.lib opencv_shape340d.lib opencv_stitching340d.lib opencv_superres340d.lib opencv_video340d.lib opencv_videoio340d.lib opencv_videostab340d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\项目\眼底分级\糖网\代码\软件搭建\FundusImageProcessing\x64\Debug\FundusImageProcessing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\项目\眼底分级\糖网\代码\软件搭建\FundusImageProcessing\x64\Debug\FundusImageProcessing.lib" /MACHINE:X64 x64\Debug\base.obj
          x64\Debug\bloodVesselsegment.obj
@@ -31,4 +31,4 @@
 
 生成成功。
 
-已用时间 00:00:02.49
+已用时间 00:00:02.83

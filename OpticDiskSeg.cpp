@@ -11,7 +11,7 @@ OpticDiskSeg::OpticDiskSeg(){
 	ParamValue thresholdValue;
 	thresholdValue.name = QStringLiteral("thresholdValue");
 	thresholdValue.value.varType = T_INT;
-	thresholdValue.value.nVal = -1;
+	thresholdValue.value.nVal = 242;
 	thresholdValue.explain = QStringLiteral("二值化阈值\n取值范围: >= 0 ; -1为Otsu阈值分割\n推荐-1或242");
 	this->ListOfParam.push_back(thresholdValue);
 
